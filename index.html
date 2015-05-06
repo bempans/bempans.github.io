@@ -17,6 +17,9 @@
 body {
 	margin: 0;
 	background: url(concrete_seamless.png);
+	background: url(original.jpg);
+	background-size: 100% auto;
+	-webkit-filter: grayscale(100%);
 }
 header {
 	background: url(zwartevilt.png);
@@ -55,6 +58,13 @@ section {
 	margin: 0 auto;
 }
 
+#container {
+	color: #eee;
+	background: rgba(0,0,0,0.35);
+	padding: 10px;
+	border-radius: 2px;
+}
+
 #container > section:target ~ section:last-child,
 #container > section {
 	display: none;
@@ -88,7 +98,8 @@ section {
 		<h3>Kan man få samples?</h3>
 		Inga samples, men erbjuder en första beställning på 1 gram, 150 :-
 		<h3>Vad händer om polisen nappar brevet i posten</h3>
-		Du är alltid oskyldig, tills motsatsen är bevisad. Inte ditt fel om nån pundare använt din address.
+		Du är alltid oskyldig, tills motsatsen är bevisad. Inte ditt fel om nån pundare använt din address.<br>
+		Tyvärr, så skickar vi ej om paket, om du inte kan bevisa att posten tagit det.
 		<h3>När skickas det?</h3>
 		Inom 24H
 	</section>
